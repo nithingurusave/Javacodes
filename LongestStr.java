@@ -6,7 +6,7 @@ public class LongestStr {
 		for(int i=0;i<1;i++) {
 			for(int j=i+1;j<s.length();j++) {
 				
-				String a="";
+				String a= ""; 
 				int x=i,y=j;
 				while(y<s.length()&&s.charAt(x)==s.charAt(y)) {
 					a+=s.charAt(x);
